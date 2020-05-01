@@ -1,21 +1,34 @@
 <template>
-  <div class="container">
+  <div class="mx-auto min-h-full w-full">
     <script src="https://hebaweb.herokuapp.com/fontawesome.min.js"></script>
     <link
       rel="stylesheet"
       href="https://hebaweb.herokuapp.com/fontawesome.min.css"
     />
 
-    <div class="deadlines w-full mt-4 flex">
-      <div
-        class="flex deadline w-72 h-36 mr-3 bg-white rounded-md shadow-lg border-solid border-2 border-gray-100"
+    <div class="w-full h-56" style="overflow:auto">
+      <div class="mx-auto Works w-80  mt-4 flex">
+        <Work :type="'deadline'" />
+        <Work :type="'deadline'" />
+        <Work :type="'deadline'" />
+      </div>
+    </div>
+    <div class="homeworks justify-center mx-auto" style="width:55vw">
+      <!-- <div
+        class=" overflow-hidden flex deadline w-full h-41 mr-3 bg-white rounded-md shadow-lg border-solid border-2 border-gray-100"
       >
+        <div class="w-41 p-2">
+          <img
+            src="https://cdn.vuetifyjs.com/images/cards/store.jpg"
+            class="w-full h-full mt-1 mr-1 pr-1"
+          />
+        </div>
         <div class="w-4/6 truncate block pl-4 pt-3">
           <p class="text-2xl w-full truncate">
             Çocuklar Bu Önemli asd asd asd adasd asd asd asd asd asd asd asd sdi
           </p>
           <p class="text-sm text-gray-700">
-            Cemal Halatcıııı
+            Cemal Halatcı
             <span class="uppercase text-xs ml-2">Kimya</span>
           </p>
 
@@ -40,20 +53,18 @@
             </div>
           </div>
         </div>
-        <div>asd</div>
-      </div>
-      <div class="text-xl deadline w-3/5 h-32 mr-3 bg-red-500">asd</div>
-      <div class="text-xs deadline w-3/5 h-32 bg-red-500">asd</div>
+      </div> -->
+      <work :type="'normal'" />
     </div>
   </div>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
+import Work from "@/components/Work";
 
 export default {
   components: {
-    Logo
+    Work
   }
 };
 </script>

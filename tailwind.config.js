@@ -9,8 +9,13 @@ module.exports = {
     extend: {
       spacing: {
         "36": "9rem",
-        "72": "26rem"
+        "40": "10rem",
+        "41": "11rem",
+        "50": "50rem",
+        "60": "60rem",
+        "80": "80rem"
       },
+      width: {},
       fontSize: {
         "2/5xl": "1.6rem"
       }
