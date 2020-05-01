@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/work/1" class="w-1/3" tag="div">
+  <nuxt-link to="/work/1" :class="type == 'deadline' ? 'w-1/3' : ''" tag="div">
   <div
     class=" overflow-hidden flex deadline w-full mr-3 bg-white rounded-md shadow-lg border-solid border-2 border-gray-100"
     :class="type == 'deadline' ? 'h-36' : 'h-40'"
