@@ -14,11 +14,11 @@
         <Work :type="'deadline'" />
         <Work :type="'deadline'" />
         <p>
-          <img src="./favicon.ico" alt="">
         </p>
       </div>
     </div>
     <div class="homeworks justify-center mx-auto" style="width:55vw">
+          <img src="rock.jpg" alt="">
       <!-- <div
         class=" overflow-hidden flex deadline w-full h-41 mr-3 bg-white rounded-md shadow-lg border-solid border-2 border-gray-100"
       >
