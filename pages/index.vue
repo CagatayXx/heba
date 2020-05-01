@@ -1,7 +1,10 @@
 <template>
   <div class="container">
-    <script src="./fontawesome.min.js"></script>
-    <link rel="stylesheet" href="./fontawesome.min.css" />
+    <script src="https://hebaweb.herokuapp.com/fontawesome.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://hebaweb.herokuapp.com/fontawesome.min.css"
+    />
 
     <div class="deadlines w-full mt-4 flex">
       <div
