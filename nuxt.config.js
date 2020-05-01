@@ -1,6 +1,7 @@
 
 export default {
     env: {
+    // baseUrl: process.env.BASE_URL || 'http://localhost:3000'
   },
   mode: 'universal',
   /*
@@ -14,7 +15,11 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel:'stylesheet', href:"/fontawesome.min.css" }
+    ],
+    script: [
+      { src: "/fontawesome.min.js" }
     ]
   },
   /*
@@ -50,7 +55,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL: process.env.BASE_URL
+    baseURL:process.env.BASE_URL 
   },
   /*
   ** Build configuration

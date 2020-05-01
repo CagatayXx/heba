@@ -1,11 +1,5 @@
 <template>
   <div class="mx-auto min-h-full w-full">
-    <script src="fontawesome.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="fontawesome.min.css"
-    />
-
     <Header />
 
     <div class="w-full h-56" style="overflow:auto">
