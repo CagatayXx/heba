@@ -6,6 +6,8 @@
       href="https://hebaweb.herokuapp.com/fontawesome.min.css"
     />
 
+    <Header />
+
     <div class="w-full h-56" style="overflow:auto">
       <div class="mx-auto Works w-80  mt-4 flex">
         <Work :type="'deadline'" />
@@ -61,10 +63,12 @@
 
 <script>
 import Work from "@/components/Work";
+import Header from "@/components/Header";
 
 export default {
   components: {
-    Work
+    Work,
+    Header
   }
 };
 </script>
