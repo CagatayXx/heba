@@ -1,7 +1,5 @@
 <template>
   <div>
-    <script src="./fontawesome.min.js"></script>
-    <link rel="stylesheet" href="./fontawesome.min.css" />
     <nuxt />
   </div>
 </template>

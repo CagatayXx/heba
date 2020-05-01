@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <script src="./fontawesome.min.js"></script>
+    <link rel="stylesheet" href="./fontawesome.min.css" />
+
     <div class="deadlines w-full mt-4 flex">
       <div
         class="flex deadline w-72 h-36 mr-3 bg-white rounded-md shadow-lg border-solid border-2 border-gray-100"
