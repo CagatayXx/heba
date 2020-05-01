@@ -1,9 +1,9 @@
 <template>
   <div class="mx-auto min-h-full w-full">
-    <script src="https://hebaweb.herokuapp.com/fontawesome.min.js"></script>
+    <script src="fontawesome.min.js"></script>
     <link
       rel="stylesheet"
-      href="https://hebaweb.herokuapp.com/fontawesome.min.css"
+      href="fontawesome.min.css"
     />
 
     <Header />
