@@ -1,9 +1,43 @@
 <template>
-  <div class="container" style="width:100vw">
-    <div
-      class=" bg-red-500 w-2 sm:w-10 sm:bg-orange-300 md:w-20 md:bg-blue-500 lg:w-40 xl:w-full"
-    >
-      asd
+  <div class="container">
+    <div class="deadlines w-full mt-4 flex">
+      <div
+        class="flex deadline w-72 h-36 mr-3 bg-white rounded-md shadow-lg border-solid border-2 border-gray-100"
+      >
+        <div class="w-4/6 truncate block pl-4 pt-3">
+          <p class="text-2xl w-full truncate">
+            Çocuklar Bu Önemli asd asd asd adasd asd asd asd asd asd asd asd sdi
+          </p>
+          <p class="text-sm text-gray-700">
+            Cemal Halatcıııı
+            <span class="uppercase text-xs ml-2">Kimya</span>
+          </p>
+
+          <div class="flex w-32 pl-8 mt-1 mx-auto text-gray-700">
+            <div class="flex mr-2">
+              <div class="text-center">
+                <i class="fas fa-eye text-2/5xl block"></i
+                ><span class=" font-bold">11</span>
+              </div>
+            </div>
+            <div class="flex mr-2">
+              <div class="text-center">
+                <i class="far fa-edit text-2/5xl block"></i
+                ><span class=" font-bold">11</span>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="text-center">
+                <i class="fas fa-user-graduate text-2/5xl block"></i
+                ><span class=" font-bold">11</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>asd</div>
+      </div>
+      <div class="text-xl deadline w-3/5 h-32 mr-3 bg-red-500">asd</div>
+      <div class="text-xs deadline w-3/5 h-32 bg-red-500">asd</div>
     </div>
   </div>
 </template>
@@ -27,10 +61,7 @@ export default {
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  width: 100vw;
 }
 
 .title {
